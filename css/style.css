@@ -17,21 +17,6 @@ body {
     height: 100vh;
 }
 
-video { 
-   width:100%;
-   height:100vh;
-   object-fit: initial;
-   -webkit-background-size:cover; 
-   -moz-background-size:cover; 
-   -o-background-size:cover; 
-   background-size:cover;
-}
-
-video::-webkit-media-controls {
-  display:none !important;
-    
-}
-
 .rightpanel {
     display: flex;
     display: -webkit-flex;
@@ -163,5 +148,20 @@ max-width:100vh;
 
 #atom1 { 
   transform-origin: 50% 50%;
+}
+
+video { 
+   width:100%;
+   height:100vh;
+   object-fit: initial;
+   -webkit-background-size:cover; 
+   -moz-background-size:cover; 
+   -o-background-size:cover; 
+   background-size:cover;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+    
 }
 
