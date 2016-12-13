@@ -1,6 +1,74 @@
 body {
-    height: 100vh;
+    height: 100%;
 }
+
+/* index.html */
+
+.pagecontainer {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    background-size: cover;
+}
+
+#helium{
+
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+top:15%;
+align-self: center;
+width: 30%;
+position: relative;
+  
+}
+
+/* NAV BAR */
+
+.elementsbar {
+  display: flex;
+  flex-direction: row;   
+  position: relative;
+  margin: 1% 0 0 5%;
+
+}
+
+.elementsinline{
+    
+display: flex;
+align-items: center;
+flex-direction: row; 
+list-style-type:none;
+position: relative;
+margin-top: 1.7%;
+  
+}
+
+.elementsstyle{
+
+margin: 0 35px 0 0;
+text-decoration: none; 
+color: black !important; 
+font-size: 1em;
+font-family: montserrat;
+position: relative;
+    
+}
+
+.elementsstyle:hover{ 
+     color:#FFF !important;
+}
+
+.elementslogo{
+    
+width:12%;
+    
+}
+
+/* about.html */
 
 .pageparent {
     display: -webkit-flex;
