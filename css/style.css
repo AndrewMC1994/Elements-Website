@@ -1,0 +1,172 @@
+body {
+    height: 100%;
+}
+
+/* about.html */
+
+.pageparent {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.leftpanel {
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightpanel {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #00192B;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    color: floralwhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    color: floralwhite;
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+hr {
+    width: 40%;
+    margin-top: -1%;
+}
+
+.logo {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.element1 {
+    z-index: 5;
+    position: absolute;
+}
+
+.button {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.button1 {
+    z-index: 1;
+    position: absolute;
+    align-self: flex-end;
+    bottom: 10%;
+}
+
+.button2 {
+    z-index: 1;
+    position: absolute;
+    align-self: flex-start;
+    top: 10%;
+}
+
+.rightpanel2 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #146080;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightpanel3 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B4050;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightpanel4 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #7383A2;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightpanel5 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0F29;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.elementcontainer{
+    
+max-width:100vh;   
+    
+}
+
+#atom1 { 
+  transform-origin: 50% 50%;
+}
+
+video { 
+   width:100%;
+   height:100vh;
+   object-fit: initial;
+   -webkit-background-size:cover; 
+   -moz-background-size:cover; 
+   -o-background-size:cover; 
+   background-size:cover;
+    position:relative;
+    z-index: -1 !important;
+
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+    
+}
+
